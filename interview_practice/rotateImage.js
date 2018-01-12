@@ -1,7 +1,6 @@
 function rotateImage(a) {
   const last = a.length - 1;
-  var temp1 = null;
-  var temp2 = null;
+  var temp1 = temp2 = null;
   var source = {};
   
   var storeAndMoveTo = (destin) => {
